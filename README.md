@@ -172,7 +172,7 @@ It can interface with Elixir-code based on 2 important functions:
 - These helper-functions interface with Elixir by sending/receiving data via stdin or stdout. (Right now it's only possible to send messages up to 64KiB.)
 - To be able to use the send and receive functions, you need to add the following include:
 ```C
-#include <elixir_comm.h>
+# include <elixir_comm.h>
 ```
 
 - The code for these functions is mostly based on the following [link](http://www.erlang.org/doc/tutorial/c_port.html#id57564).
